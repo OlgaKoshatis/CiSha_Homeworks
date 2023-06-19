@@ -9,7 +9,7 @@ FillArrayRandomNumbers(numbers);
 
 if (n > numbers.GetLength(0) || m > numbers.GetLength(1))
 {
-    Console.WriteLine("такого числа нет в массиве");
+    Console.WriteLine("такого элемента нет в массиве");
 }
 else
 {
