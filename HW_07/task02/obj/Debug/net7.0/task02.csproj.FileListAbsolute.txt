@@ -1,0 +1,15 @@
+D:\STUDY\C#\CiSha_HWs\HW_07\task02\bin\Debug\net7.0\task02.exe
+D:\STUDY\C#\CiSha_HWs\HW_07\task02\bin\Debug\net7.0\task02.deps.json
+D:\STUDY\C#\CiSha_HWs\HW_07\task02\bin\Debug\net7.0\task02.runtimeconfig.json
+D:\STUDY\C#\CiSha_HWs\HW_07\task02\bin\Debug\net7.0\task02.dll
+D:\STUDY\C#\CiSha_HWs\HW_07\task02\bin\Debug\net7.0\task02.pdb
+D:\STUDY\C#\CiSha_HWs\HW_07\task02\obj\Debug\net7.0\task02.csproj.AssemblyReference.cache
+D:\STUDY\C#\CiSha_HWs\HW_07\task02\obj\Debug\net7.0\task02.GeneratedMSBuildEditorConfig.editorconfig
+D:\STUDY\C#\CiSha_HWs\HW_07\task02\obj\Debug\net7.0\task02.AssemblyInfoInputs.cache
+D:\STUDY\C#\CiSha_HWs\HW_07\task02\obj\Debug\net7.0\task02.AssemblyInfo.cs
+D:\STUDY\C#\CiSha_HWs\HW_07\task02\obj\Debug\net7.0\task02.csproj.CoreCompileInputs.cache
+D:\STUDY\C#\CiSha_HWs\HW_07\task02\obj\Debug\net7.0\task02.dll
+D:\STUDY\C#\CiSha_HWs\HW_07\task02\obj\Debug\net7.0\refint\task02.dll
+D:\STUDY\C#\CiSha_HWs\HW_07\task02\obj\Debug\net7.0\task02.pdb
+D:\STUDY\C#\CiSha_HWs\HW_07\task02\obj\Debug\net7.0\task02.genruntimeconfig.cache
+D:\STUDY\C#\CiSha_HWs\HW_07\task02\obj\Debug\net7.0\ref\task02.dll
