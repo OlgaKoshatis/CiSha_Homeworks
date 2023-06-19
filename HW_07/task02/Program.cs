@@ -1,15 +1,15 @@
 ﻿// Напишите программу, которая на вход принимает позиции элемента в двумерном массиве, и возвращает значение этого элемента или же указание, что такого элемента нет.
 
-Console.WriteLine("введите номер строки");
+Console.WriteLine("Введите номер строки");
 int n = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine("введите номер столбца");
+Console.WriteLine("Введите номер столбца");
 int m = Convert.ToInt32(Console.ReadLine());
 int [,] numbers = new int [10,10];
 FillArrayRandomNumbers(numbers);
 
 if (n > numbers.GetLength(0) || m > numbers.GetLength(1))
 {
-    Console.WriteLine("такого элемента нет в массиве");
+    Console.WriteLine("Такого элемента нет в массиве");
 }
 else
 {
