@@ -1,8 +1,8 @@
 ﻿// Задайте двумерный массив. Напишите программу, которая упорядочит по убыванию элементы каждой строки двумерного массива.
 
-Console.WriteLine("введите количество строк");
+Console.WriteLine("Введите количество строк");
 int linesVol = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine("введите количество столбцов");
+Console.WriteLine("Введите количество столбцов");
 int columnsVol = Convert.ToInt32(Console.ReadLine());
 int[,] numbers = new int[linesVol, columnsVol];
 FillArrayRandomNumbers(numbers);

@@ -31,7 +31,7 @@ void PrintArray(int[,] array)
     }
 }
 
-int size = InputInt("размерность матриц: ");
+int size = InputInt("Размерность матриц: ");
 int[,] matrixA = new int[size, size];
 int[,] matrixB = new int[size, size];
 FillArrayRandomNumbers(matrixA);

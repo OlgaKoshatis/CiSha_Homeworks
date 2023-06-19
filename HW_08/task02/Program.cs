@@ -1,11 +1,11 @@
 ﻿// Задайте прямоугольный двумерный массив. Напишите программу, которая будет находить строку с наименьшей суммой элементов.
 
-Console.WriteLine("введите размер прямоугольного массива");
+Console.WriteLine("Введите размер прямоугольного массива");
 int massVol = Convert.ToInt32(Console.ReadLine());
 int[,] numbers = new int[massVol, massVol];
 FillArrayRandomNumbers(numbers);
 PrintArray(numbers);
-int minsum = Int32.MaxValue;
+int minSum = Int32.MaxValue;
 int indexLine = 0;
 
 for (int i = 0; i < numbers.GetLength(0); i++)
@@ -15,14 +15,14 @@ for (int i = 0; i < numbers.GetLength(0); i++)
     {
         sum = sum + numbers[i, j];        
     }
-    if (sum < minsum)
+    if (sum < minSum)
     {
-        minsum = sum;
+        minSum = sum;
         indexLine++;
     }
 }
 
-Console.WriteLine("строка с наименьшей суммой элементов под номером: " + (indexLine) + ", с суммой элементов равной: " + (minsum));
+Console.WriteLine("строка с наименьшей суммой элементов (" + (minSum) +") - под номером: " + (indexLine));
 
 void FillArrayRandomNumbers(int[,] array)
 {
