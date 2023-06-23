@@ -1,23 +1,20 @@
 ﻿// Задайте значение N. Напишите программу, которая выведет все натуральные числа в промежутке от N до 1. Выполнить с помощью рекурсии.
 
-int m = 1;
-if (n < 1)
-{
-    Console.WriteLine("Ввели не положительное число");
-}
-Console.WriteLine(NaturalNumber(n, m));
+Console.Write("Введите число: ");
+int number = Convert.ToInt32(Console.ReadLine());
+int count = 1;
+NaturalToLow(number, count);
 
-int NaturalNumber(int n, int m)
+
+void NaturalToLow(int n, int count)
 {
-    if (n == m)
-        return n;
+    if (count > n)
+    {
+        return;
+    }
     else
-        Console.Write($"{NaturalNumber(n, m + 1)}, ");
-    return m;
-}
-
-int InputInt(string output)
-{
-    Console.Write(output);
-    return int.Parse(Console.ReadLine());
+    {
+        NaturalToLow(n, count + 1);
+        Console.Write(count + " ");
+    }
 }

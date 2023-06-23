@@ -1,18 +1,27 @@
 ﻿// Задайте значения M и N. Напишите программу, которая найдёт сумму натуральных элементов в промежутке от M до N с помощью рекурсии.
 
-int m = InputInt("Введите M:");
-int n = InputInt("Введите N:");
-Console.WriteLine($"Сумма элементов от {m} до {n} = {CountNaturalSum(m, n)}");
+Console.Write("Введите число M: ");
+int m = Convert.ToInt32(Console.ReadLine());
 
-int InputInt(string output)
+Console.Write("Введите число N: ");
+int n = Convert.ToInt32(Console.ReadLine());
+
+SumFromMToN(m, n);
+
+void SumFromMToN(int m, int n)
 {
-    Console.Write(output);
-    return int.Parse(Console.ReadLine());
+    Console.Write(SumMN(m - 1, n));
 }
 
-int CountNaturalSum(int m, int n)
+int SumMN(int m, int n)
 {
+    int res = m;
     if (m == n)
-        return n;
-    return n + CountNaturalSum(m, n - 1);
+        return 0;
+    else
+    {
+        m++;
+        res = m + SumMN(m, n);
+        return res;
+    }
 }
